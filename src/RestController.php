@@ -31,6 +31,11 @@ class RestController extends \CI_Controller
      * @var array
      */
     protected $methods = [];
+    
+     /**
+     * Defines https status
+     */
+    protected $http_status = [];
 
     /**
      * List of allowed HTTP methods.
